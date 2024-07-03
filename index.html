@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Portals</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+<body>
+    <div class="book">
+        <h1>Book Portals</h1>
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <h2>I'm Swimmer</h2>
+            <h5 style="color: chocolate;">Manikandan</h5>
+            <p>
+                My Mother comes home from a business trip and she asks her little son, "well,mani, how was your life
+                with father when I was away?"
+                "Everything was fine,mum,"the little boy says. "Daddy took me to the middle of the lake by every morning
+                and I swam home alone."
+                "wasn't it difficilt for you to swim?" "oh,no,mum, the only problem was that I had to get out of the bag
+                first."
+            </p>
+
+        </div>
+    </div>
+
+    <div class="popup-overlay" id="popup-box-overlay"></div>
+
+    <div class="popup-box" id="popup-boxid">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book title" id="book-title-input">
+            <input type="text" placeholder="Enter Author" id="book-author-input">
+            <textarea placeholder="short discription" id="content-input"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel-popup">Cancel</button>
+        </form>
+    </div>
+
+    <button class="pluse-button" id="pluse-popup-button" onclick="pluse()">+</button>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
