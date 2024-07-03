@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Portals</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<body>
+    <div class="book">
+        <h1>Book Portals</h1>
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <h2>Rich Dad Poor Dad</h2>
+            <h5> Author:manikandan</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus non quaerat nam corporis, expedita inventore repellendus.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+
+        <div class="book-container">
+            <h2>Rich Dad Poor Dad</h2>
+            <h5> Author:manikandan</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus non quaerat nam corporis, expedita inventore repellendus.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+
+    <div class="popup-overlay" id="popup-box-overlay"></div>
+
+    <div class="popup-box" id="popup-boxid">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book title" id="book-title-input">
+            <input type="text" placeholder="Enter Author" id="book-author-input">
+            <textarea placeholder="short discription" id="content-input"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel-popup">Cancel</button>
+        </form>
+    </div>
+
+    <button class="pluse-button" id="pluse-popup-button" onclick="pluse()">+</button>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
